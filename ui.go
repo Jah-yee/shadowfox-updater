@@ -77,7 +77,7 @@ func createUI() error {
 
 		err = install(profilePath, shouldGenerateUUIDs, shouldSetTheme)
 		if err == nil {
-			_, err = dlgs.Info(header, "Shadowfox has been succesfully installed!")
+			_, err = dlgs.Info(header, "Shadowfox has been successfully installed!")
 			if err != nil {
 				return err
 			}
@@ -90,7 +90,7 @@ func createUI() error {
 	} else {
 		err := uninstall(profilePath)
 		if err == nil {
-			_, err = dlgs.Info(header, "Shadowfox has been succesfully uninstalled!")
+			_, err = dlgs.Info(header, "Shadowfox has been successfully uninstalled!")
 			if err != nil {
 				return err
 			}
